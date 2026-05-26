@@ -1,22 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta device-widthcharset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="./style.css">
+<title>⚔️ARENA</title>
 </head>
 <body>
-<div class = "controle">
-    <h2> ARENA L7 </h2>
-    <label >Ecolha sua Clase</label>
-   <select id="classe">
-      <option value="guerreiro">Guerreiro</option>
-      <option value="mago">Mago</option>
-      <option value="arqueiro">Arqueiro</option>
-    </select>
-    <label >Equipe a sua arma </label>
-    <imput type="text" id="arma" placeholer="Ex: Epada, Cajado, Arco"></imput>
+<div class = "controles">
+<h2> ⚔️ARENA L7⚔️ </h2>
+<label >Escolha sua Classe</label>
+<select id="classe">
+ <option value="guerreiro">Guerreiro</option>
+ <option value="mago">Mago</option>
+ <option value="arqueiro">Arqueiro</option>
+</select>
+<label >Equipe sua arma </label>
+<input type="text" id="arma" placeholder="EX: Espada, Cajado, Arco">
+
+<button onclick="lutar()">INICIAR O COMBATE</button>
+<div id="log">Aguardano desafiante</div>
+
+
 
 </div>
 </body>
+<script src="./batalha.js"></script>
 </html>
